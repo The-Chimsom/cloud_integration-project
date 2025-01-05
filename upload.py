@@ -16,6 +16,7 @@ def upload_file(bucket_name, source_file, blob_destination_name):
 
 if __name__ == "__main__":
     bucket_name =  config["STORAGE_BUCKET_NAME"]
-    source_file = "Apocolypse Food Prep.xlsx"
+    source_file = "Sales.csv"
     blob_destination_name = config["BLOB_NAME"]
     upload_file(bucket_name=bucket_name, source_file=source_file, blob_destination_name=blob_destination_name)
+      
